@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     let im = [image, 0, 0, WW, WH];
     cw = im[3];
     ch = im[4];
-    image.src = "./images/colorwheel1.png";
+    image.src = "m10.png";
 
     image.onload = function () {
         ctx.drawImage(im[0], im[1], im[2], im[3], im[4]);
